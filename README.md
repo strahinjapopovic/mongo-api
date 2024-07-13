@@ -43,7 +43,7 @@
 
 ### Mongo API Router uses NPM packages like MongoDB package as a database document model and Mongoose as a object-oriented programming library that establishes connection between database and Node RTE. Mongoose Shemas, database Models and connection are set at first. Seeds for populating databse with testing data at second and routes and controllers at the end. Testing is performed by using Insomnia Client API platform. 
 
-[<img src="./images/mongo-insomnia-bord.PNG" alt="Insomnia screenshot." />](./images/mongo-insomnia-bord.PNG)
+[<img src="./images/mongo-insomnia-bord.png" alt="Insomnia screenshot." />](./images/mongo-insomnia-bord.PNG)
 
 <a id="github-repository"></a>
 ## GitHub Repository 
@@ -61,7 +61,7 @@ $ mongod
 ```
 If terminal shows something like image below it means MongoDB is set properly. Othrewise repeat process again.
 
-[<img src="./images/mongo-install-bord.PNG" alt="Git Bash Terminal screenshot." />](./images/mongo-install-bord.PNG)
+[<img src="./images/mongo-install-bord.png" alt="Git Bash Terminal screenshot." />](./images/mongo-install-bord.PNG)
 
 After MongoDB is setup, npm packages should be installed at root dir of the application (`~/mongo-api/app>`):
 To initialize package.json and to install node_packages run
@@ -90,7 +90,7 @@ Alternatively,
 $ npm run seed # automate executable shortcuts scripts at package.json
 ```
 ### Run seed output:
-[<img src="./images/mongo-seed-bord.PNG" alt="VS Code Image." />](./images/mongo-seed-bord.PNG)
+[<img src="./images/mongo-seed-bord.png" alt="VS Code Image." />](./images/mongo-seed-bord.PNG)
 
 <a id="usage-info"></a>
 ## Usage Info
